@@ -52,8 +52,12 @@ body {
 
 }
 
-a{
+.link {
     color: white;
+}
+
+a{
+    color: rgb(160, 137, 137);
     text-decoration: none;
 }
 
