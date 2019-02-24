@@ -1,0 +1,283 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 640px) {
+  body {
+
+    background-image: url('../images/diagonal-squares.png');
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+   
+   
+    
+  }
+
+.content {
+    
+    
+    width: 100%;
+    padding: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+    
+}
+
+.containerContainer{ 
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    margin-bottom: 50px;
+ 
+
+
+}
+
+.headerContainer {
+    background-color: white;
+    padding-bottom:30px;
+    width: 100%;
+    text-align: center;
+   
+
+    
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    
+
+
+}
+
+
+a{
+    color: #777777;
+    text-decoration: none;
+    text-align: center;
+    height: 65px;
+    width: 400px;
+    
+    
+    
+    
+    
+   
+}
+
+.linkAbout{  
+    border-right: #777777 1px solid;
+    display: inline;
+    padding: 0 5%;
+
+   
+}
+
+.linkPortfolio{  
+    border-right: #777777 1px solid;
+    display: inline;
+    padding: 0 5%;
+}
+
+.linkContact{  
+    display: inline;
+    padding: 0 5%;
+}
+
+
+
+.aboutMe {
+    
+    background-color: white;
+    color: #777777;
+    width: 60%;
+    height: 100%;
+    overflow: auto;
+    margin-bottom: 20%;
+    margin-left: 15%;
+
+    
+    
+
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 0%;
+    
+}
+
+.itMe {
+    float: left;
+    margin: 0px 10px;
+}
+
+.test{
+   
+    margin: 0px 10px;
+    
+}
+
+
+.contactForm {
+    color: black;
+    
+
+}
+
+.nameBox {
+
+    width: 100%;
+    margin: 10px 0px;
+    
+
+}
+
+.emailBox {
+
+    width: 100%;
+    margin: 10px 0px;
+
+
+}
+
+.messageBox {
+
+    width: 100%;
+    height: 125px;
+    margin: 10px 0px;
+    
+
+}
+
+.hangman {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px;
+    min-width: 172px;
+    height: 30px;
+    right: 10px;
+    bottom: 0px;
+    text-align: center;
+    position: absolute;
+   
+}
+
+.rpg {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px;
+    min-width: 172px;
+    height: 30px;
+    right: 10px;
+    bottom: 0px;
+    text-align: center;
+    position: absolute;
+   
+}
+
+
+.trivia {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px;
+    min-width: 172px;
+    height: 30px;
+    right: 10px;
+    bottom: 0px;
+    text-align: center;
+    position: absolute;
+   
+   
+}
+
+.rutgers {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px;
+    min-width: 172px;
+    height: 30px;
+    right: 10px;
+    bottom: 0px;
+    text-align: center;
+    position: absolute;
+   
+}
+
+.rock {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px;
+    min-width: 172px;
+    height: 30px;
+    right: 10px;
+    bottom: 0px;
+    text-align: center;
+    position: absolute;
+  
+}
+
+.imgHang {
+    position: relative;
+    float: left;
+    margin: 0 10px;
+    padding: 5px 10px;
+    
+    
+}
+
+.imgRpg {
+    position: relative;
+    float: left;
+    margin: 0 10px;
+    padding: 5px 10px;
+    
+    
+}
+
+ .imgTrivia { 
+    position: relative;
+    float: left;
+    margin: 0 10px;
+    padding: 5px 10px;
+    clear: left;
+    
+}
+.imgInfo { 
+    position: relative;
+    float: left;
+    margin: 0 10px;
+    padding: 5px 10px;
+    
+}
+
+ .imgRock { 
+    position: relative;
+    float: left;
+    margin: 0 10px;
+    padding: 5px 10px;
+    clear: left;
+    
+}
+
+
+.footer {
+    height: 50px;
+    width: 100%;
+    color: #ccc;
+    text-align: center;
+    background-color: #666666;
+    border-top: 10px #4aaaa5 solid; 
+    padding: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+}

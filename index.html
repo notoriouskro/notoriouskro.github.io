@@ -1,44 +1,207 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Kyle's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
+    <style>
+        body,
+        html {
+            height: 70%;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url("assets/images/gg.jpg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <!-- Bootstrap -->
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Play|Righteous"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="assets/css/style.css" />
+
 </head>
-<body>        
-    
-<div class="containerContainer"> 
-    <div class="headerContainer">
-            <h1 class="name">
-                    Kyle Robert
-            </h1>
-    
-        <div class="linkContact"><a href="contact.html">Contact</a></div>
-        <div class="linkPortfolio"><a href="portfolio.html">Portfolio</a></div>
-        <div class="linkAbout"><a href="index.html">About</a></div>  
-        
-    </div> 
-</div>
 
-<div class="body">
+<body>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
-        <div class="aboutMe">
-            <h2>About Me</h2>
-                <hr />
-                <div class="itMe"><img width="150px" src="assets/images/me.png"></div>
-                <div class="test">
-                    Welcome to the digital world of Kyle Robert. I am working to become a web developer focusing on HTML, CSS and JavaScript. 
-                <br><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt reiciendis, delectus numquam cumque quibusdam et recusandae quo modi. Incidunt officiis veritatis unde cupiditate fugit, laudantium vel commodi assumenda esse debitis.
-                <br><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt reiciendis, delectus numquam cumque quibusdam et recusandae quo modi. Incidunt officiis veritatis unde cupiditate fugit, laudantium vel commodi assumenda esse debitis.
-                </div>    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Kyle Robert</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="true"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li>
+                    <a class="nav-link" href="#aMe">About<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#port">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#con">Contact</a>
+                </li>
+            </ul>
         </div>
-</div>
-<div class="footer"> &copy; Copyright</div>
-    
+    </nav>
+
+
+
+
+    <div class="parallax"></div>
+
+    <div style="height:100%" class="aboutMe">
+
+        <div class="sectionTitle"><a name="aMe">About Me</a>
+        </div>
+        <hr />
+        <div class="itMe"><img width="150px" src="assets/images/me.png">
+        </div>
+
+        <div id="aboutMe">
+            Welcome to the digital world of Kyle Robert. I am working
+            to become a web developer focusing on HTML, CSS and
+            JavaScript.
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sunt reiciendis, delectus numquam cumque quibusdam et
+            recusandae quo modi. Incidunt officiis veritatis unde
+            cupiditate fugit, laudantium vel commodi assumenda esse
+            debitis.
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sunt reiciendis, delectus numquam cumque quibusdam et
+            recusandae quo modi. Incidunt officiis veritatis unde
+            cupiditate fugit, laudantium vel commodi assumenda esse
+            debitis.
+        </div>
+    </div>
+    <div class="parallax"></div>
+
+    <div style="height:100%" class="aboutMe">
+        <div class="sectionTitle">
+            <a name="port">Portfolio</a>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm">
+                <img class="portfolioIcon"
+                    src="assets/images/fortuneteller.jpg">
+                <h3 class="portfolioLabel"><a
+                        href="https://notoriouskro.github.io/wordguessgame/"
+                        class="link">Fortune Teller Game</a></h3>
+            </div>
+            <div class="col-sm">
+                <img class="portfolioIcon" src="assets/images/band.jpg">
+                <h3 class="portfolioLabel"><a
+                        href="https://notoriouskro.github.io/unit-4-game/"
+                        class="link">Music Game</a></h3>
+            </div>
+            <div class="col-sm">
+                <img class="portfolioIcon"
+                    src="assets/images/sidney-crosby.jpg">
+                <h3 class="portfolioLabel"><a
+                        href="https://notoriouskro.github.io/TriviaGame/"
+                        class="link">Hockey Trivia Game</a></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <img class="portfolioIcon"
+                    src="assets/images/simspons.jpg">
+                <h3 class="portfolioLabel"><a
+                        href="https://notoriouskro.github.io/GifTastic/"
+                        class="link">The Simpsons Giphy!</a></h3>
+            </div>
+            <div class="col-sm">
+                <img class="portfolioIcon"
+                    src="assets/images/yosemite.jpg">
+                <h3 class="portfolioLabel"><a
+                        href="https://kateburson.github.io/footprint/"
+                        class="link">
+                        Footprint</a></h3>
+            </div>
+            <div class="col-sm">
+                <img class="portfolioIcon"
+                    src="assets/images/rockpaperscissor.jpg">
+                <h3 class="portfolioLabel">Rock Paper Scissors</h3>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div style="height:60%" class="aboutMe">
+        <div class="sectionTitle">
+            <a name="con">Contact</a>
+            <!--Linkedin-->
+            <a href="https://www.linkedin.com/in/kyle-robert-b5081950/"
+                target="_blank"><i class="fab fa-linkedin fa-1x"></i></a>
+            <!--Github-->
+            <a href="https://github.com/notoriouskro" target="_blank"><i
+                    class="fab fa-github fa-1x"></i></a>
+        </div>
+        <hr />
+
+        <div class="contactForm">
+            <form action="action_page.php">
+                <label for="name">Name</label>
+                <input type="text" class="nameBox" name="name"
+                    placeholder="John Smith">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" class="emailBox" name="email"
+                    placeholder="example@gmail.com">
+                <br>
+                <label for="message">Message</label>
+                <input type="text" class="messageBox" name="message">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="parallax"></div>
+
+    <footer class="page-footer font-small bg-light text-dark ">
+
+        <div class="footer-copyright text-center py-3">
+            © 2019 Copyright
+        </div>
+    </footer>
+
+
+
 </body>
+
 </html>
