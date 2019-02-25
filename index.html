@@ -23,6 +23,10 @@
             background-size: cover;
         }
     </style>
+    <!-- Firebase Reference -->
+    <script
+        src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -115,110 +119,116 @@
         </div>
 
         <div id="aboutMe">
-            Welcome to the digital world of Kyle Robert. I am a web
-            developer focusing on HTML, CSS and
-            JavaScript.
-            <br><br>
-            My portfolio can be found below displaying some of my skills.
-            <br><br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sunt reiciendis, delectus numquam cumque quibusdam et
-            recusandae quo modi. Incidunt officiis veritatis unde
-            cupiditate fugit, laudantium vel commodi assumenda esse
-            debitis.
+            <p>Kyle is full stack web developer proficient in frontend and
+                backend technologies. He is knowledgeable with HTML, CSS,
+                Javascript, Node JS and more. He is also well versed in
+                GitHub repositories, Slack, and other collaboration tools.
+            </p>
+
+            <p>In addition to web development, Kyle is a content creator
+                producing both written and audio work for FakePigskin.com.
+                Kyle creates podcast organizing the content, recording the
+                audio, prepping it for
+                deployment and more. He also gets other contributors
+                content web ready.</p>
+
+            <p id="resume"><button type="button" class="btn btn-dark"><a
+                        href="./assets/images/kyle_robert_resume.pdf"
+                        target="blank" class="link">Kyle's
+                        Resume</a></button></p>
+
         </div>
     </div>
     <div class="parallax"></div>
 
 
-        <div class="aboutMe">
-            <div class="sectionTitle">
-                <a name="port">Portfolio</a>
+    <div class="aboutMe">
+        <div class="sectionTitle">
+            <a name="port">Portfolio</a>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm">
+                <img class="portfolioIcon"
+                    src="assets/images/fortuneteller.jpg">
+                <h3 class="portfolioLabel"><a
+                        href="https://notoriouskro.github.io/wordguessgame/"
+                        class="link">Fortune Teller Game</a></h3>
             </div>
-            <hr />
-            <div class="row">
-                <div class="col-sm">
-                    <img class="portfolioIcon"
-                        src="assets/images/fortuneteller.jpg">
-                    <h3 class="portfolioLabel"><a
-                            href="https://notoriouskro.github.io/wordguessgame/"
-                            class="link">Fortune Teller Game</a></h3>
-                </div>
-                <div class="col-sm">
-                    <img class="portfolioIcon"
-                        src="assets/images/band.jpg">
-                    <h3 class="portfolioLabel"><a
-                            href="https://notoriouskro.github.io/unit-4-game/"
-                            class="link">Music Game</a></h3>
-                </div>
-                <div class="col-sm">
-                    <img class="portfolioIcon"
-                        src="assets/images/sidney-crosby.jpg">
-                    <h3 class="portfolioLabel"><a
-                            href="https://notoriouskro.github.io/TriviaGame/"
-                            class="link">Hockey Trivia Game</a></h3>
-                </div>
+            <div class="col-sm">
+                <img class="portfolioIcon" src="assets/images/band.jpg">
+                <h3 class="portfolioLabel"><a
+                        href="https://notoriouskro.github.io/unit-4-game/"
+                        class="link">Music Game</a></h3>
             </div>
-            <div class="row">
-                <div class="col-sm">
-                    <img class="portfolioIcon"
-                        src="assets/images/simspons.jpg">
-                    <h3 class="portfolioLabel"><a
-                            href="https://notoriouskro.github.io/GifTastic/"
-                            class="link">The Simpsons Giphy!</a></h3>
-                </div>
-                <div class="col-sm">
-                    <img class="portfolioIcon"
-                        src="assets/images/yosemite.jpg">
-                    <h3 class="portfolioLabel"><a
-                            href="https://kateburson.github.io/footprint/"
-                            class="link">
-                            Footprint</a></h3>
-                </div>
-                <div class="col-sm">
-                    <img class="portfolioIcon"
-                        src="assets/images/rockpaperscissor.jpg">
-                    <h3 class="portfolioLabel">Rock Paper Scissors</h3>
-                </div>
+            <div class="col-sm">
+                <img class="portfolioIcon"
+                    src="assets/images/sidney-crosby.jpg">
+                <h3 class="portfolioLabel"><a
+                        href="https://notoriouskro.github.io/TriviaGame/"
+                        class="link">Hockey Trivia Game</a></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <img class="portfolioIcon"
+                    src="assets/images/simspons.jpg">
+                <h3 class="portfolioLabel"><a
+                        href="https://notoriouskro.github.io/GifTastic/"
+                        class="link">The Simpsons Giphy!</a></h3>
+            </div>
+            <div class="col-sm">
+                <img class="portfolioIcon"
+                    src="assets/images/yosemite.jpg">
+                <h3 class="portfolioLabel"><a
+                        href="https://kateburson.github.io/footprint/"
+                        class="link">
+                        Footprint</a></h3>
+            </div>
+            <div class="col-sm">
+                <img class="portfolioIcon"
+                    src="assets/images/rockpaperscissor.jpg">
+                <h3 class="portfolioLabel">Rock Paper Scissors</h3>
             </div>
         </div>
     </div>
-    
+    </div>
+
 
     <div class="parallax"></div>
 
-    
-        <div class="aboutMe">
-            <div class="sectionTitle">
-                <a name="con">Contact</a>
-                <!--Linkedin-->
-                <a href="https://www.linkedin.com/in/kyle-robert-b5081950/"
-                    target="_blank"><i
-                        class="fab fa-linkedin fa-1x"></i></a>
-                <!--Github-->
-                <a href="https://github.com/notoriouskro"
-                    target="_blank"><i class="fab fa-github fa-1x"></i></a>
-            </div>
-            <hr />
 
-            <div class="contactForm">
-                <form action="action_page.php">
-                    <label for="name">Name</label>
-                    <input type="text" class="nameBox" name="name"
-                        placeholder="John Smith">
-                    <br>
-                    <label for="email">Email</label>
-                    <input type="text" class="emailBox" name="email"
-                        placeholder="example@gmail.com">
-                    <br>
-                    <label for="message">Message</label>
-                    <input type="text" class="messageBox" name="message">
-                    <br>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+    <div class="aboutMe">
+        <div class="sectionTitle">
+            <a name="con">Contact</a>
+            <!--Linkedin-->
+            <a href="https://www.linkedin.com/in/kyle-robert-b5081950/"
+                target="_blank"><i class="fab fa-linkedin fa-1x"></i></a>
+            <!--Github-->
+            <a href="https://github.com/notoriouskro" target="_blank"><i
+                    class="fab fa-github fa-1x"></i></a>
         </div>
-    
+        <hr />
+
+        <div class="contactForm">
+            <form action="action_page.php">
+                <label for="name">Name</label>
+                <input type="text" class="nameBox" id="name" name="name"
+                    placeholder="John Smith">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" class="emailBox" id="email" name="email"
+                    placeholder="example@gmail.com">
+                <br>
+                <label for="message">Message</label>
+                <input type="text" class="messageBox" id="message"
+                    name="message">
+                <br>
+                <input type="submit" value="Submit" id="contact">
+            </form>
+        </div>
+    </div>
+
 
     <div class="parallax"></div>
 
@@ -228,7 +238,8 @@
             © 2019 Copyright
         </div>
     </footer>
-
+    <!-- JavaScript -->
+    <script src="Assets/javascript/app.js"></script>
 </body>
 
 </html>
