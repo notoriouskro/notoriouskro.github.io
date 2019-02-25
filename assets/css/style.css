@@ -1,5 +1,13 @@
 
+.navbar-brand{
+    /* font-family: 'Carter One', cursive; */
+    font-family: 'Play', sans-serif;
+    font-size: 45px;
+}
 
+.nav-link{
+    color: #cc5500;
+}
 .link {
     color: white;
 }
